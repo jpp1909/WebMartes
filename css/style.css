@@ -1,0 +1,51 @@
+html,body{
+	height: 100%;
+}
+
+body {
+	background: rgba(0,0,0,0.91);
+	background: -moz-linear-gradient(-45deg, rgba(0,0,0,0.91) 0%, rgba(18,11,60,0.96) 51%, rgba(0,0,0,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0,0,0,0.91)), color-stop(51%, rgba(18,11,60,0.96)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0.91) 0%, rgba(18,11,60,0.96) 51%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(0,0,0,0.91) 0%, rgba(18,11,60,0.96) 51%, rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(0,0,0,0.91) 0%, rgba(18,11,60,0.96) 51%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(135deg, rgba(0,0,0,0.91) 0%, rgba(18,11,60,0.96) 51%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
+
+}
+
+#titulo {
+	color: white;
+	font-family: 'Odibee Sans', cursive;
+	letter-spacing: 0.1em;
+	text-align: center;
+	text-shadow: 0 0.1em 0.2em red;
+}
+
+.galeria{
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	width: 80%;
+}	
+.galeria div{
+	filter: grayscale(1);
+}
+
+.galeria div:hover{
+	filter: grayscale(0);
+}
+
+#texto{
+	width: 60%;
+	display: flex;
+	margin: 0 auto;
+
+}
+
+p{
+	color: white;
+	font-family: 'bold', cursive;
+	font-size: 1.3em;
+	
+}
